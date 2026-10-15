@@ -1,0 +1,792 @@
+{
+  "checkedAt": "2026-10-13T12:47:51.774Z",
+  "url": "http://127.0.0.1:4177",
+  "devUrl": "http://127.0.0.1:5177",
+  "browser": "agent-browser isolated Chromium",
+  "mobile": "iPhone 15 emulation, 390 x 844 viewport, CDP single and multi-touch input; not a physical device",
+  "passed": true,
+  "checks": [
+    {
+      "name": "desktop first frame, full poem, one canvas, fitted layout",
+      "passed": true,
+      "detail": {
+        "state": {
+          "animationTime": 0.33309999998807904,
+          "camera": [
+            104.99999999999996,
+            80.99999999999999,
+            133.99999999999991
+          ],
+          "drawCalls": 67,
+          "flying": false,
+          "frames": 20,
+          "paused": false,
+          "quality": "desktop",
+          "ready": true,
+          "reducedMotion": false,
+          "target": [
+            0,
+            18,
+            -3.9999999999999982
+          ],
+          "treeCount": 206,
+          "triangles": 542748,
+          "view": "overview"
+        },
+        "layout": {
+          "buttons": [
+            {
+              "bottom": 386,
+              "height": 85,
+              "left": 1110,
+              "right": 1404,
+              "top": 301,
+              "width": 294,
+              "x": 1110,
+              "y": 301
+            },
+            {
+              "bottom": 471,
+              "height": 85,
+              "left": 1110,
+              "right": 1404,
+              "top": 386,
+              "width": 294,
+              "x": 1110,
+              "y": 386
+            },
+            {
+              "bottom": 556,
+              "height": 85,
+              "left": 1110,
+              "right": 1404,
+              "top": 471,
+              "width": 294,
+              "x": 1110,
+              "y": 471
+            },
+            {
+              "bottom": 641,
+              "height": 85,
+              "left": 1110,
+              "right": 1404,
+              "top": 556,
+              "width": 294,
+              "x": 1110,
+              "y": 556
+            }
+          ],
+          "canvasCount": 1,
+          "footer": {
+            "bottom": 900,
+            "height": 55,
+            "left": 36,
+            "right": 1404,
+            "top": 845,
+            "width": 1368,
+            "x": 36,
+            "y": 845
+          },
+          "height": 900,
+          "horizontalOverflow": false,
+          "stage": {
+            "bottom": 845,
+            "height": 757,
+            "left": 36,
+            "right": 1078,
+            "top": 88,
+            "width": 1042,
+            "x": 36,
+            "y": 88
+          },
+          "viewport": [
+            1440,
+            900
+          ]
+        }
+      }
+    },
+    {
+      "name": "desktop viewpoint: path",
+      "passed": true,
+      "detail": {
+        "animationTime": 2.649599999988078,
+        "camera": [
+          3.99999999999999,
+          18.000000000000007,
+          78.99999999999997
+        ],
+        "drawCalls": 47,
+        "flying": false,
+        "frames": 159,
+        "paused": false,
+        "quality": "desktop",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -22,
+          16,
+          19
+        ],
+        "treeCount": 206,
+        "triangles": 542508,
+        "view": "path"
+      }
+    },
+    {
+      "name": "desktop viewpoint: village",
+      "passed": true,
+      "detail": {
+        "animationTime": 4.9653999999880885,
+        "camera": [
+          52,
+          50,
+          -11
+        ],
+        "drawCalls": 48,
+        "flying": false,
+        "frames": 298,
+        "paused": false,
+        "quality": "desktop",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          23,
+          37.4,
+          -43
+        ],
+        "treeCount": 206,
+        "triangles": 542408,
+        "view": "village"
+      }
+    },
+    {
+      "name": "desktop viewpoint: carriage",
+      "passed": true,
+      "detail": {
+        "animationTime": 7.2662999999881075,
+        "camera": [
+          -4,
+          21.40000000000001,
+          61
+        ],
+        "drawCalls": 7,
+        "flying": false,
+        "frames": 436,
+        "paused": false,
+        "quality": "desktop",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -23,
+          12.8,
+          43
+        ],
+        "treeCount": 206,
+        "triangles": 542028,
+        "view": "carriage"
+      }
+    },
+    {
+      "name": "desktop viewpoint: leaves",
+      "passed": true,
+      "detail": {
+        "animationTime": 9.616299999988096,
+        "camera": [
+          35,
+          24.4,
+          55
+        ],
+        "drawCalls": 37,
+        "flying": false,
+        "frames": 577,
+        "paused": false,
+        "quality": "desktop",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          14,
+          17.4,
+          29
+        ],
+        "treeCount": 206,
+        "triangles": 542276,
+        "view": "leaves"
+      }
+    },
+    {
+      "name": "desktop accessibility: WCAG A/AA automated checks",
+      "passed": true,
+      "detail": {
+        "inapplicable": 36,
+        "incomplete": 1,
+        "passes": 24,
+        "violations": 0
+      }
+    },
+    {
+      "name": "rapid clicks finish at the latest verse",
+      "passed": true,
+      "detail": {
+        "animationTime": 12.066299999988075,
+        "camera": [
+          35,
+          24.4,
+          55
+        ],
+        "drawCalls": 37,
+        "flying": false,
+        "frames": 722,
+        "paused": false,
+        "quality": "desktop",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          14,
+          17.4,
+          29
+        ],
+        "treeCount": 206,
+        "triangles": 542276,
+        "view": "leaves"
+      }
+    },
+    {
+      "name": "drag cancels flight and allows free observation",
+      "passed": true,
+      "detail": {
+        "animationTime": 12.63199999998807,
+        "camera": [
+          19.276935239343594,
+          30.44116365756011,
+          60.126246524746946
+        ],
+        "drawCalls": 3,
+        "flying": false,
+        "frames": 756,
+        "paused": false,
+        "quality": "desktop",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          13.976846275002064,
+          17.39909957736119,
+          28.993568409722787
+        ],
+        "treeCount": 206,
+        "triangles": 541868,
+        "view": "path"
+      }
+    },
+    {
+      "name": "keyboard selection during a drag reaches its target",
+      "passed": true,
+      "detail": {
+        "animationTime": 14.849599999988058,
+        "camera": [
+          52,
+          50,
+          -11
+        ],
+        "drawCalls": 48,
+        "flying": false,
+        "frames": 889,
+        "paused": false,
+        "quality": "desktop",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          23,
+          37.4,
+          -43
+        ],
+        "treeCount": 206,
+        "triangles": 542408,
+        "view": "village"
+      }
+    },
+    {
+      "name": "leaving an upward angle starts smoothly",
+      "passed": true,
+      "detail": {
+        "before": [
+          33.379476291127745,
+          5.2,
+          52.993637312824845
+        ],
+        "transitionStart": [
+          33.374905601785386,
+          5.199999999999999,
+          52.98797836411528
+        ]
+      }
+    },
+    {
+      "name": "repeat selection restores the composed camera",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mouse wheel changes camera distance",
+      "passed": true,
+      "detail": {
+        "before": 184.49390233826148,
+        "after": 169.26130067741917
+      }
+    },
+    {
+      "name": "overview clears verse selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keyboard Enter, arrows, Home, End and visible focus",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pause freezes scenery while camera navigation works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manual reduced motion freezes scenery and switches directly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "immersive mode reuses the scene and Escape returns",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "desktop resize keeps the scene and readable navigation",
+      "passed": true,
+      "detail": {
+        "buttons": [
+          {
+            "bottom": 362,
+            "height": 81,
+            "left": 950,
+            "right": 1244,
+            "top": 281,
+            "width": 294,
+            "x": 950,
+            "y": 281
+          },
+          {
+            "bottom": 443,
+            "height": 81,
+            "left": 950,
+            "right": 1244,
+            "top": 362,
+            "width": 294,
+            "x": 950,
+            "y": 362
+          },
+          {
+            "bottom": 524,
+            "height": 81,
+            "left": 950,
+            "right": 1244,
+            "top": 443,
+            "width": 294,
+            "x": 950,
+            "y": 443
+          },
+          {
+            "bottom": 605,
+            "height": 81,
+            "left": 950,
+            "right": 1244,
+            "top": 524,
+            "width": 294,
+            "x": 950,
+            "y": 524
+          }
+        ],
+        "canvasCount": 1,
+        "footer": {
+          "bottom": 800,
+          "height": 55,
+          "left": 36,
+          "right": 1244,
+          "top": 745,
+          "width": 1208,
+          "x": 36,
+          "y": 745
+        },
+        "height": 800,
+        "horizontalOverflow": false,
+        "stage": {
+          "bottom": 745,
+          "height": 657,
+          "left": 36,
+          "right": 918,
+          "top": 88,
+          "width": 882,
+          "x": 36,
+          "y": 88
+        },
+        "viewport": [
+          1280,
+          800
+        ]
+      }
+    },
+    {
+      "name": "simulated mobile layout and performance tier",
+      "passed": true,
+      "detail": {
+        "state": {
+          "animationTime": 0.2002999999642372,
+          "camera": [
+            133.74425760022928,
+            98.24655456013758,
+            171.77816713172993
+          ],
+          "drawCalls": 58,
+          "flying": false,
+          "frames": 13,
+          "paused": false,
+          "quality": "mobile",
+          "ready": true,
+          "reducedMotion": false,
+          "target": [
+            0,
+            18,
+            -3.9999999999999982
+          ],
+          "treeCount": 131,
+          "triangles": 432300,
+          "view": "overview"
+        },
+        "layout": {
+          "buttons": [
+            {
+              "bottom": 753.125,
+              "height": 87,
+              "left": 20,
+              "right": 370,
+              "top": 666.125,
+              "width": 350,
+              "x": 20,
+              "y": 666.125
+            },
+            {
+              "bottom": 840.125,
+              "height": 87,
+              "left": 20,
+              "right": 370,
+              "top": 753.125,
+              "width": 350,
+              "x": 20,
+              "y": 753.125
+            },
+            {
+              "bottom": 927.125,
+              "height": 87,
+              "left": 20,
+              "right": 370,
+              "top": 840.125,
+              "width": 350,
+              "x": 20,
+              "y": 840.125
+            },
+            {
+              "bottom": 1014.125,
+              "height": 87,
+              "left": 20,
+              "right": 370,
+              "top": 927.125,
+              "width": 350,
+              "x": 20,
+              "y": 927.125
+            }
+          ],
+          "canvasCount": 1,
+          "footer": {
+            "bottom": 1298.5,
+            "height": 62,
+            "left": 16,
+            "right": 374,
+            "top": 1236.5,
+            "width": 358,
+            "x": 16,
+            "y": 1236.5
+          },
+          "height": 1299,
+          "horizontalOverflow": false,
+          "stage": {
+            "bottom": 498.4375,
+            "height": 430.4375,
+            "left": 16,
+            "right": 374,
+            "top": 68,
+            "width": 358,
+            "x": 16,
+            "y": 68
+          },
+          "viewport": [
+            390,
+            844
+          ]
+        }
+      }
+    },
+    {
+      "name": "simulated mobile viewpoint: path",
+      "passed": true,
+      "detail": {
+        "animationTime": 2.500299999964234,
+        "camera": [
+          8.159999999999997,
+          18.320000000000007,
+          88.6
+        ],
+        "drawCalls": 38,
+        "flying": false,
+        "frames": 151,
+        "paused": false,
+        "quality": "mobile",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -22,
+          16,
+          19
+        ],
+        "treeCount": 131,
+        "triangles": 432060,
+        "view": "path"
+      }
+    },
+    {
+      "name": "simulated mobile viewpoint: village",
+      "passed": true,
+      "detail": {
+        "animationTime": 4.800299999964243,
+        "camera": [
+          56.63999999999999,
+          52.016000000000005,
+          -5.88000000000001
+        ],
+        "drawCalls": 39,
+        "flying": false,
+        "frames": 289,
+        "paused": false,
+        "quality": "mobile",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          23,
+          37.4,
+          -43
+        ],
+        "treeCount": 131,
+        "triangles": 431960,
+        "view": "village"
+      }
+    },
+    {
+      "name": "simulated mobile viewpoint: carriage",
+      "passed": true,
+      "detail": {
+        "animationTime": 7.100299999964264,
+        "camera": [
+          -0.9600000000000009,
+          22.775999999999996,
+          63.879999999999995
+        ],
+        "drawCalls": 7,
+        "flying": false,
+        "frames": 427,
+        "paused": false,
+        "quality": "mobile",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          -23,
+          12.8,
+          43
+        ],
+        "treeCount": 131,
+        "triangles": 431688,
+        "view": "carriage"
+      }
+    },
+    {
+      "name": "simulated mobile viewpoint: leaves",
+      "passed": true,
+      "detail": {
+        "animationTime": 9.382799999964268,
+        "camera": [
+          38.36,
+          25.519999999999996,
+          59.16
+        ],
+        "drawCalls": 33,
+        "flying": false,
+        "frames": 564,
+        "paused": false,
+        "quality": "mobile",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          14,
+          17.4,
+          29
+        ],
+        "treeCount": 131,
+        "triangles": 431888,
+        "view": "leaves"
+      }
+    },
+    {
+      "name": "simulated mobile accessibility: WCAG A/AA automated checks",
+      "passed": true,
+      "detail": {
+        "inapplicable": 37,
+        "incomplete": 1,
+        "passes": 23,
+        "violations": 0
+      }
+    },
+    {
+      "name": "simulated single finger orbits the scene",
+      "passed": true,
+      "detail": {
+        "before": [
+          133.74425760022928,
+          98.24655456013758,
+          171.77816713172993
+        ],
+        "after": [
+          15.021898216703088,
+          138.402741649909,
+          197.2523847738264
+        ]
+      }
+    },
+    {
+      "name": "simulated two finger pinch zooms",
+      "passed": true,
+      "detail": {
+        "before": 235.00000000000003,
+        "after": 129.86260564013062
+      }
+    },
+    {
+      "name": "system reduced motion is honored on fresh mount",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "normal production console and page errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "graphics loss preserves poetry and recovery restores one canvas",
+      "passed": true,
+      "detail": {
+        "animationTime": 0.6134999999761582,
+        "camera": [
+          133.74425760022928,
+          98.24655456013758,
+          171.77816713172993
+        ],
+        "drawCalls": 58,
+        "flying": false,
+        "frames": 38,
+        "paused": false,
+        "quality": "mobile",
+        "ready": true,
+        "reducedMotion": false,
+        "target": [
+          0,
+          18,
+          -3.9999999999999982
+        ],
+        "treeCount": 131,
+        "triangles": 432300,
+        "view": "overview"
+      }
+    },
+    {
+      "name": "WebGL unavailable preserves poem and retry can recover",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final recovered production console and page errors",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "consoleMessages": []
+      }
+    },
+    {
+      "name": "development StrictMode mount keeps one canvas and one animation loop",
+      "passed": true,
+      "detail": {
+        "estimatedFrameRate": 59.78364015874674,
+        "state": {
+          "animationTime": 3.4237000000357596,
+          "camera": [
+            52,
+            50,
+            -11
+          ],
+          "drawCalls": 48,
+          "flying": false,
+          "frames": 207,
+          "paused": false,
+          "quality": "desktop",
+          "ready": true,
+          "reducedMotion": false,
+          "target": [
+            23,
+            37.4,
+            -43
+          ],
+          "treeCount": 206,
+          "triangles": 542408,
+          "view": "village"
+        }
+      }
+    }
+  ],
+  "expectedGraphicsMessages": [
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "THREE.WebGLRenderer: Context Lost."
+        }
+      ],
+      "text": "THREE.WebGLRenderer: Context Lost.",
+      "type": "log"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "THREE.WebGLRenderer: Context Lost."
+        }
+      ],
+      "text": "THREE.WebGLRenderer: Context Lost.",
+      "type": "log"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "THREE.WebGLRenderer: Error creating WebGL context."
+        }
+      ],
+      "text": "THREE.WebGLRenderer: Error creating WebGL context.",
+      "type": "error"
+    }
+  ]
+}

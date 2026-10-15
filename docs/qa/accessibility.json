@@ -1,0 +1,124 @@
+[
+  {
+    "size": "1440 x 900",
+    "counts": {
+      "inapplicable": 36,
+      "incomplete": 1,
+      "passes": 24,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 4,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<span>／</span>",
+            "target": [
+              ".author > span"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<span class=\"verse-number\">04</span>",
+            "target": [
+              ".is-selected > .verse-number"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<i>·</i>",
+            "target": [
+              "i:nth-child(1)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<i>·</i>",
+            "target": [
+              "span:nth-child(2) > i:nth-child(2)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "size": "390 x 844",
+    "counts": {
+      "inapplicable": 37,
+      "incomplete": 1,
+      "passes": 23,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 4,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<span>／</span>",
+            "target": [
+              ".author > span"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element",
+            "html": "<span class=\"verse-number\">04</span>",
+            "target": [
+              ".is-selected > .verse-number"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<i>·</i>",
+            "target": [
+              "i:nth-child(1)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content",
+            "html": "<i>·</i>",
+            "target": [
+              "span:nth-child(2) > i:nth-child(2)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  }
+]
