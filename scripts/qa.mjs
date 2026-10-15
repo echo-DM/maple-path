@@ -3,7 +3,7 @@ import { execFileSync } from 'node:child_process';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
-const url = process.argv[2] ?? 'http://127.0.0.1:4177';
+const url = process.argv[2] ?? 'http://127.0.0.1:4177/maple-path/';
 const devUrl = process.argv[3];
 const session = execFileSync('agent-browser', ['session', 'id', '--scope', 'worktree', '--prefix', 'maple-qa'], { encoding: 'utf8' }).trim();
 const output = resolve('docs/qa');

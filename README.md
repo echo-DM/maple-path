@@ -26,7 +26,15 @@ pnpm build
 pnpm preview --port 4177
 ```
 
-`dev` 启动开发服务，`check` 执行严格 TypeScript 检查，`build` 检查类型并生成 `dist/`，`preview` 提供生产预览。Vite 使用相对资源路径，可作为静态网站部署。图形、模型、天空和植被均由本地代码生成，无需远程图片、字体或模型。
+`dev` 启动开发服务，`check` 执行严格 TypeScript 检查，`build` 检查类型并生成 `dist/`，`preview` 提供生产预览。开发地址为 <http://localhost:5177/maple-path/>，生产预览地址为 <http://localhost:4177/maple-path/>。图形、模型、天空和植被均由本地代码生成，无需远程图片、字体或模型。
+
+## GitHub Pages 部署
+
+站点目标地址：<https://echo-dm.github.io/maple-path/>。
+
+首次部署前，在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。将代码推送到 `main` 后，`Deploy to GitHub Pages` 工作流会使用 Node.js 24 和 `package.json` 指定的 pnpm 版本，按锁文件安装依赖、构建并发布 `dist/`；也可以在 Actions 页面手动运行该工作流。
+
+Vite 的资源路径固定为 `/maple-path/`。若仓库改名或改用自定义域名，需要同步调整 `vite.config.ts` 中的 `base`。部署是否成功以 Actions 运行结果和公开站点实际访问为准。
 
 生产构建中的 Three.js 分块约 505 kB（gzip 约 126 kB），Vite 会提示分块尺寸警告。三维模块按需加载；手机初始化时降低像素密度和树木数量，并关闭阴影。
 
@@ -69,9 +77,9 @@ docs/qa/         实际检查结果与截图
 安装可用的 `agent-browser` CLI 并启动生产预览后运行：
 
 ```bash
-pnpm qa http://127.0.0.1:4177
+pnpm qa http://127.0.0.1:4177/maple-path/
 # 同时验证运行中的开发服务和 React StrictMode：
-pnpm qa http://127.0.0.1:4177 http://127.0.0.1:5177
+pnpm qa http://127.0.0.1:4177/maple-path/ http://127.0.0.1:5177/maple-path/
 ```
 
 脚本使用独立 Chromium 会话，覆盖逐句截图、转场中断、缩放、键盘、暂停、减少动态、沉浸、响应式排版、模拟触控及图形失败恢复。结果写入 `docs/qa/results.json` 和 `docs/qa/accessibility.json`。本次覆盖与限制见 [验收记录](docs/acceptance.md)；模拟手机画幅和触控不代表真实手机验证。
